@@ -17,10 +17,9 @@ font-family: 'Poppins', sans-serif;
 5.  Education
 6.  Skill
 7.  Experience
-8.  Profiles
-9.  Portfolio
-10. Clients
-11. Contact
+8.  Project
+9.  certifications
+10. Contact
 
 /*-------------------------------------
 		1.General css (Reset code)
@@ -498,7 +497,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {}
+
 
 .skill-content {
     padding: 50px 0 80px;
