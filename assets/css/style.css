@@ -1083,5 +1083,179 @@ span.single-timeline-horizontal.spacial-horizontal-line {
         bottom: 7px;
     }
 }
+#feature {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+#feature .fe-box{
+    width :300px;
+    text-align: center;
+    padding: 25px 15 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    margin: 40px 80px;
+}
+#feature .fe-box img{
+padding: 2px;
+height: 100px;
+}
 
-/*========================Thank you=================
+
+#feature .fe-box:hover {
+
+box-shadow: 15px 15px 34px rgba(0, 0, 0, 0.12);
+    border-radius: 6px;
+}
+h5{
+    padding: 10px 10px;
+    color: rgb(14, 24, 16);
+    text-transform: capitalize;
+    line-height: 1;
+    border-radius: 4px;
+    background-color: #aa7f6b;
+}
+#feature .fe-box:nth-child(2) h5{
+    background-color: bisque;
+}
+#feature .fe-box:nth-child(3) h5{
+    background-color: rgb(225, 129, 196);
+}
+#feature .fe-box:nth-child(4) h5{
+    background-color: rgb(105, 34, 83);
+}
+#feature .fe-box:nth-child(5) h5{
+    background-color: rgb(146, 116, 25);
+}
+
+.section {
+    padding: 20px;
+	margin-top: 80px;
+
+}
+.heading-section{
+    width: 400px;
+    display: flexbox;
+    align-items: center;
+    margin-bottom: 5%;
+    justify-content: center;
+    padding: 20px 20px;
+    margin-left: 3%;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: capitalize;
+    
+    background-color: #aa7f6b;
+   
+    box-shadow: rgb(75, 45, 3) 5px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+   
+}
+.pro-img{
+    height: 500px;
+}
+.certificate{
+	padding: 14px;
+	background-color: whitesmoke;
+	margin: 7px;
+	border-radius: 100px;
+	width: auto;
+	text-transform: capitalize;
+}
+.certificate a {
+    color: #00a6ff; /* Change this color to the one you want */
+    text-decoration: none; /* Removes the default underline on links */
+}
+
+.certificate a:hover {
+    text-decoration: underline; /* Add underline on hover, change color if needed */
+	text-decoration: solid;
+}
+.contact{
+	/* background-image: url('img/contact.png'); /* Replace 'your-image.jpg' with the path to your image */
+  /*  background-size: cover;  Adjust this property to control how the image covers the element */
+   /* background-position: center; /* Adjust this property to control the image's position within the element */
+   /* background-repeat: no-repeat; */
+	
+	display: flexbox;
+	width: 20%;
+	
+	align-items: center;
+	
+	box-sizing: border-box;
+	font-size: larger;
+} 
+
+.side2 {
+	display: flexbox;
+	padding-top: 80px;
+	/* background-image: url('img/_a50c405d-3633-4a90-9656-149d0724aef0.jfif'); /* Replace 'your-image.jpg' with the path to your image */
+    /* background-size:auto; /* Adjust this property to control how the image covers the element */
+    /* background-position: center; /* Adjust this property to control the image's position within the element */
+    /* background-repeat: no-repeat;  */ 
+}
+.side2 img { 
+	width: 100%; 
+	 
+} 
+.cont-img {
+	margin: 5%;
+
+	
+}
+.cont-img img{
+	width: 45px;
+	
+}
+h1{
+	text-decoration: wavy;
+	text-decoration-color:#aa7f6b;
+	font-size: larger;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-style: italic;
+}
+
+
+.image-description-container {
+	display: flex;
+	align-items: center;
+	box-shadow: 15px 15px 34px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+	margin-bottom: 25px;
+}
+
+/* Style for the left side (image) */
+.image {
+	flex: 1;
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: rgb(0, 0, 0) 5px 5px;
+
+}
+
+/* Style for the right side (description) */
+.description {
+	flex: 2;
+	padding: 20px;
+	margin-left: 25px;
+	margin-right: 20px;
+	text-align: justify;
+}
+
+.description img {
+	width: 50px;
+}
+
+/* Add additional styles to format the content as desired */
+.image img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	align-items: center;
+	text-transform: uppercase;
+	text-align: center;
+}
+
