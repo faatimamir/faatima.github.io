@@ -40,8 +40,8 @@ font-family: 'Poppins', sans-serif;
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: #676a81;
-    background: #fff;
+    color: #545a74;
+    background: #d2d0d0;
     max-width: 1920px;
     margin: 0 auto;
     overflow-x: hidden;
@@ -258,7 +258,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     align-items: center;
     justify-content: center;
     position: relative;
-    background: url(../images/about/_a50c405d-3633-4a90-9656-149d0724aef0.jfif)no-repeat;
+    background: url(../images/about/background.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     height: 800px;
@@ -580,12 +580,15 @@ span.single-timeline-horizontal.spacial-horizontal-line {
         7. Experience
 -------------------------------------*/
 .experience {
+    /* background-color: #747577; */
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
 }
 
 .experience-content {
+    background-color: #b5b6b9;
     padding-top: 100px;
+    text-decoration-color: #161616;
 }
 
 .single-timeline-box {
@@ -889,8 +892,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {
         11. Contact
 --------------------------------------*/
 .contact {
-    background: #f9fbfd;
+    background: #a3a4a5;
     padding: 50px 0 100px;
+   
 }
 
 .single-contact-box {
@@ -910,7 +914,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     box-shadow: none;
     outline: 0 !important;
     background: #fff;
-    color: #636a82;
+    color:#a3a4a5;
     resize: none;
 }
 
@@ -951,7 +955,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 .single-contact-btn:hover {
     background: #684401;
-    border: 1px solid #ac4e2c;
+    border: 1px solid #5b2714;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
 }
 
@@ -969,6 +973,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     color: #636a82;
     font-weight: 300;
     margin-top: 6px;
+    
 }
 
 /* contact-adress */
@@ -1221,8 +1226,9 @@ h1{
 	display: flex;
 	align-items: center;
 	box-shadow: 15px 15px 34px rgba(0, 0, 0, 0.12);
-	border-radius: 4px;
+	border-radius: 20px;
 	margin-bottom: 25px;
+    background-color: #ab8776;
 }
 
 /* Style for the left side (image) */
