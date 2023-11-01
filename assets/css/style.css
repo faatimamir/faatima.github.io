@@ -332,26 +332,28 @@ nav.navbar.bootsnav .navbar-toggle i {
         4.  About
 --------------------------------------*/
 .about {
-    padding: 100px 80px;
+    padding: 50px 0 100px;
+    margin-left: 3%;
 }
 
+
 .about-content {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size: 18px;
-    color: #0d0d0e;
+    color: #0d0d0d;
     text-transform: initial;
     line-height: 1.8;
 }
 
 .single-about-txt p {
     font-size: 16px;
-    color: #4962ee;
+    color: #070707;
     padding: 35px 0 43px;
-    border-bottom: 1px solid #f4f7ff;
+    border-bottom: 1px solid #0b0b0b;
 }
 
 .single-about-add-info {
