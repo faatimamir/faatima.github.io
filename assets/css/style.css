@@ -142,12 +142,13 @@ body {
 @media (min-width: 1024px) {}
 
 nav.navbar.bootsnav.no-background {
-    background-color: #fff;
+    background-color: #816767;
     border: none;
+    color: #000;
 }
 
 nav.navbar.bootsnav {
-    background-color: #fff;
+    background-color: #9f9898;
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0, 0, 0, .2);
 }
@@ -158,17 +159,18 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #aa7f6b;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     padding: 33px 0px 57px;
     text-transform: uppercase;
+    font-family:cursive;
 }
 
 /*.navbar-brand*/
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav>li>a {
-    font-size: 16px;
+    font-size:15px;
     font-weight: 400;
     text-transform: uppercase;
     -webkit-transition: 0.3s linear;
@@ -176,16 +178,17 @@ nav.navbar.bootsnav ul.nav>li>a {
     -ms-transition: 0.3s linear;
     -o-transition: 0.3s linear;
     transition: 0.3s linear;
+    
 }
 
 nav.navbar.bootsnav ul.nav>li>a {
-    padding: 15px 20px;
+    padding: 30px 20px;
 }
 
 nav.navbar.bootsnav ul.nav>li>a:hover,
 nav.navbar.bootsnav ul.nav>li>a:focus,
 nav.navbar.bootsnav ul.nav>li.active>a {
-    color: #aa7f6b;
+    color: #070606;
 }
 
 nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle:after {
@@ -198,13 +201,13 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 }
 
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a {
-    color: #6a708e;
+    color: #fefeff;
 }
 
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a:hover,
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li>a:focus,
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav>li.active>a {
-    color: #aa7f6b;
+    color: #ffffff;
 }
 
 /*.nav li*/
@@ -226,7 +229,7 @@ nav.navbar.bootsnav ul.nav>li.dropdown span {
 }
 
 .menu-ui-design::-webkit-scrollbar-thumb {
-    background-color: #aa7f6b;
+    background-color: #381707;
 }
 
 /*.menu-ui-design*/
@@ -243,7 +246,7 @@ nav.navbar.bootsnav .navbar-toggle {
 }
 
 nav.navbar.bootsnav .navbar-toggle i {
-    color: #aa7f6b;
+    color: #060605;
 }
 
 /*.navbar-toggle */
@@ -285,7 +288,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .header-text h2 span {
-    color: #aa7f6b;
+    color: #f8f8f8;
 }
 
 .header-text p {
@@ -307,17 +310,20 @@ nav.navbar.bootsnav .navbar-toggle i {
     background: #aa7f6b;
     border: 1px solid #aa7f6b;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
-    -webkit-transition: 0.3s linear;
-    -moz-transition: 0.3s linear;
-    -ms-transition: 0.3s linear;
-    -o-transition: 0.3s linear;
-    transition: 0.3s linear;
+    -webkit-transition: 0.10s linear;
+    -moz-transition: 0.10s linear;
+    -ms-transition: 0.10s linear;
+    -o-transition: 0.10s linear;
+    transition: 0.10s linear;
 }
 
 .header-text a:hover {
+    width: 220px;
+    height: 65px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, .4);
-    background: #c18319;
-    border: 1px solid #8d440f;
+    background: #ac745a;
+    border: 1px solid #aa7f6b;
+    border-radius: 10px;
 }
 
 /*.header-text-area*/
@@ -336,16 +342,16 @@ nav.navbar.bootsnav .navbar-toggle i {
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size: 18px;
-    color: #3c4258;
+    color: #0d0d0e;
     text-transform: initial;
     line-height: 1.8;
 }
 
 .single-about-txt p {
     font-size: 16px;
-    color: #999fb3;
+    color: #4962ee;
     padding: 35px 0 43px;
-    border-bottom: 1px solid #999fb3;
+    border-bottom: 1px solid #f4f7ff;
 }
 
 .single-about-add-info {
@@ -476,7 +482,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .timeline-horizontal-border i {
     font-size: 10px;
-    color: #aa7f6b;
+    color: #f4f3f2;
     margin-right: 5px;
 }
 
@@ -801,6 +807,17 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
+   border-radius: 5px;
+    border-color: #000;
+}
+
+.isotope .item a {
+   color: #199ae0;
+}
+.item{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #000;
 }
 
 /*.item img*/
@@ -1275,4 +1292,8 @@ h1 {
 .div{
     background-color: #e6e4e4;
     margin-top: 3%;
+}
+.crouse-name{
+    color: #1f2c6c;
+    font-size: xx-large;
 }

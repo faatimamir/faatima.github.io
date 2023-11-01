@@ -1,4 +1,4 @@
-function openNavbar() { 
+unction openNavbar() { 
 	document.getElementById("sideNavigationBar") 
 		.style.width = "50%"; 
 } 
