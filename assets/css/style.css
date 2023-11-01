@@ -281,6 +281,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
+    font-family:cursive
 }
 
 .header-text h2 span {
@@ -984,18 +985,23 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 .single-contact-add-info h3 {
-    color: #636a82;
+    color: #040404;
     font-weight: 500;
 }
 
 .single-contact-add-info p {
-    color: #999fb3;
+    color: #597df4;
     font-size: 16px;
     margin-top: 18px;
+}
+.single-contact-add-info a {
+    color: #597df4;
+   
 }
 
 .single-contact-add-info {
     margin-bottom: 26px;
+    color: #5168b6;
 }
 
 /*.contact-add-info */
@@ -1097,10 +1103,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 #feature .fe-box{
     width :300px;
     text-align: center;
-    padding: 25px 15 15px;
+    padding: 25px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    margin: 40px 80px;
+    margin: 40px 50px;
     background-color: #f5f5f5;
 }
 #feature .fe-box img{
